@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LİST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="icerik" >
+        <h1 class="headerh1">Todo List</h1>
+    </header>
+    <main class="icerik" >
+		<h3>Add</h3>
+        <form action="">
+		<div style="margin-bottom: 20px;">
+            <input type="text" id="icerikinput">
+			<button onClick="ekle()">Add</button>
+		</div>
+        <h3>List</h3>
+        <table>
+            <thead><th style="width: 30px;">İd</th><th></th><th style="width: 100px;"></th></thead>
+            <tbody id="tabloicerik">
+                <tr style="background-color: rgb(165, 211, 87);"><td>1</td><td>Ekmek almaya git</td><td><button onclick="sil(1)">Sil</button><button onclick="tamamla()">Tamamlandı</button></td></tr>
+            </tbody>
+        </table>
+    </main>
+
+    <style></style>
+    <script src="script.js"></script>
+	<script>
+	getir();
+	</script>
+</body>
+</html>

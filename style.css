@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.icerik {
+    margin: auto;
+    width: 1000px;
+}
+
+.headerh1{
+    
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 162px;
+    font-size: 40px;
+}
+
+header{
+    background-color: rgb(68, 68, 68);
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    border-radius: 20px;
+}
+
+table{
+    background-color: rgb(146, 146, 146);
+    width:1200px;
+    border-radius: 10px;
+}
+td{
+    height: 40px;
+    overflow: auto;
+    max-width: 400px;
+    
+}
+
+button{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 60px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(83, 83, 83);
+}
